@@ -1,0 +1,125 @@
+@media (min-width: 320px){
+    .article_second{
+        width: 100%;
+        height: auto;
+        background-color: #D5E1DF;
+    } 
+    
+    .article_second_title-box{
+        margin: auto;
+        width: 90%;
+        padding-top: 18px;
+     }
+    
+     .article_second_title_first{
+        font-size: 22px;
+        font-weight: 100;
+        color: #78888B;
+        position: relative;
+        margin-top: 0;
+    }
+
+    .article_second_title_first::after{
+        content: '';
+        display: block;
+        background-color: #535857;
+        width: 60px;
+        height: 2px;
+        position: absolute;
+        top: 48px;
+    }
+
+    .article_second_title_second{
+        font-size: 18px;
+        font-weight: 100;
+        color: #78888B;
+        line-height: 150%;
+        margin-top: 40px;
+    }
+     
+    .article_second_paragraph-box{
+        margin: auto;
+        width: 90%;
+        height: auto; 
+        margin-top: 50px;
+      }
+
+      .article_second_paragraph-box p {
+        font-size: 16px;
+        font-weight: 100;
+        color: #78888B;
+        line-height: 150%;
+    }  
+     
+    .article_second_paragraph-box p:nth-child(2){
+       margin-top: 40px;
+    } 
+    
+    .article_second_paragraph-box button{
+        width: 100%;
+        height: 42px;
+        margin: auto;
+        background-color: #A3B8B4;
+        border-color: #A3B8B4;
+        border-style: solid;
+        color: #F9F7F5;
+        font-size: 13px;
+        font-weight: lighter;
+        margin-bottom: 56px;
+        margin-top: 12px;
+    }
+
+}
+
+
+@media (min-width: 970px) {
+    .article_second{
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+    }  
+     
+    .article_second_title-box{
+        max-width: 470px;
+        margin-top: 150px;
+     }
+
+    .article_second_title_first{
+        font-size: 25px;
+    }
+
+    .article_second_title_first::after{
+        top: 58px;
+    }
+
+    .article_second_title_second{
+        font-size: 20px;
+        margin-top: 60px;
+    }
+
+    .article_second_paragraph-box{
+        max-width: 495px;
+        margin-top: 158px;
+    }
+
+    .article_second_paragraph-box button{
+        width: 190px;
+        font-size: 15px;
+        font-weight: 100;
+        margin-bottom: 140px;
+        margin-top: 35px;
+        transition: background-color 1s, border-color 1s ;
+    }
+
+    .article_second_paragraph-box button:hover{
+        background-color: #D5E1DF;
+        border-color: #D5E1DF;
+    }
+
+}
+
+
+
+
+
+
